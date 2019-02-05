@@ -9,8 +9,7 @@ import Skills from '../skills/skills';
 import Experience from '../expirience/experience';
 import Software from '../software/software';
 import Education from '../education/education';
-
-
+import ModuleHeader from '../module-header/module-header';
 
 const App = () => {
 
@@ -19,10 +18,15 @@ const App = () => {
         surname: "Krylov",
         workplace: "Front-end"
     };
+    const profileinfo = {
+        icon: "fa-user-circle",
+        text: "Profile"
+    }
     return (
         <div className="container">
-            <div className="col-lg-6 col-xs-12">
+            <div className="col-lg-6 col-xs-12 overflow-hidden">
                 <MainInfo {...maininfo} />
+                <ModuleHeader  {...profileinfo} />
                 <Profile />
                 <Contact />
                 <Skills />
