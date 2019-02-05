@@ -19,6 +19,8 @@
     font-size: 3rem;
 }
 .module-header i {
+    width: 42px;
+    height: 42px;
     margin-right: 2px;
     padding: 3px;
     border: 2px solid;
