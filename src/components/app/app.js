@@ -40,6 +40,10 @@ const App = () => {
         { label: "Website", info: "http://localhost:3000" },
     ]
 
+    const eduInfo = [
+        {id: 'kek', university: "Toha", header: "Lol", info: "Ya zbs pivas ebnul"},
+    ]
+
     return (
         <div className="container">
             <div className="row">
@@ -52,7 +56,7 @@ const App = () => {
                     <Skills />
                 </div>
                 <div className="col-lg-7 col-xs-12">
-                    <Education />
+                    <Education eduInfo={eduInfo}/>
                     <Experience />
                     <Software />
                 </div>
