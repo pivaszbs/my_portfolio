@@ -5,8 +5,8 @@
 /.pnp
 .pnp.js
 *.json
-/src/components/app
-/public/index.html
+/app
+index.html
 
 # testing
 /coverage
