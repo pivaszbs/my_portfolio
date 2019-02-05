@@ -34,9 +34,9 @@ const App = () => {
     const profile_description = "huy huy huy";
 
     const contactinfo = [
-        { label: "Adress", info: "Innopolis, REP. Tatarstan, 1 campus" },
-        { label: "Email", info: "toxa121211@gmail.com" },
-        { label: "Phone", info: "+79648350370" },
+        { label: "Adress ", info: "Innopolis, REP. Tatarstan, 1 campus" },
+        { label: "Email  ", info: "toxa121211@gmail.com" },
+        { label: "Phone  ", info: "+79648350370" },
         { label: "Website", info: "http://localhost:3000" },
     ]
 
