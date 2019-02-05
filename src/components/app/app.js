@@ -11,6 +11,8 @@ import Software from '../software/software';
 import Education from '../education/education';
 import ModuleHeader from '../module-header/module-header';
 
+
+
 const App = () => {
 
     const maininfo = {
