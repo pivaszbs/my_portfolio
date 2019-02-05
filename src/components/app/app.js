@@ -20,16 +20,23 @@ const App = () => {
         surname: "Krylov",
         workplace: "Front-end"
     };
-    const profileinfo = {
+
+    const profileheader = {
         icon: "fa-user-circle",
         text: "Profile"
+    }
+
+    const contactheader = {
+        icon: "fa-phone",
+        text: "Contact"
     }
     return (
         <div className="container">
             <div className="col-lg-6 col-xs-12 overflow-hidden">
                 <MainInfo {...maininfo} />
-                <ModuleHeader  {...profileinfo} />
+                <ModuleHeader {...profileheader} />
                 <Profile />
+                <ModuleHeader {...contactheader}/>
                 <Contact />
                 <Skills />
             </div>
