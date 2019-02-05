@@ -40,6 +40,25 @@ const App = () => {
         { label: "Website", info: "http://localhost:3000" },
     ]
 
+    const eduheader = {
+        icon: "fa-star",
+        text: "Education"
+    }
+
+    const expheader = {
+        icon: "fa-briefcase",
+        text: "Experience"
+    }
+
+    const softheader = {
+        icon: "fa-desktop",
+        text: "Software"
+    }
+
+    const expInfo = [
+        {id: 'kek', job: "Toha", company: "Lol", info: "Ya zbs pivas ebnul"},
+    ]
+
     const eduInfo = [
         {id: 'kek', university: "Toha", header: "Lol", info: "Ya zbs pivas ebnul"},
     ]
@@ -55,9 +74,12 @@ const App = () => {
                     <Contact contactinfo={contactinfo} />
                     <Skills />
                 </div>
-                <div className="col-lg-7 col-xs-12">
+                <div className="col-lg-7 col-xs-12 overflow-hidden">
+                    <ModuleHeader {...eduheader} />
                     <Education eduInfo={eduInfo}/>
-                    <Experience />
+                    <ModuleHeader {...expheader} />
+                    <Experience expInfo={expInfo}/>
+                    <ModuleHeader {...softheader} />
                     <Software />
                 </div>
             </div>
