@@ -3,11 +3,12 @@
     font-weight: 700;
     text-transform: uppercase;
     color: steelblue;
-    margin-right: 2rem;
-    font-size: 1.2rem;
-
+    margin-right: 1rem;
+    font-size: 1rem;
+    display: inline-block;
 }
 
 .contact-info {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    display: inline-block;
 }

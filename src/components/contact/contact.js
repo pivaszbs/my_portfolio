@@ -11,7 +11,7 @@ const Contact = (props) => {
                <p>{label}</p>
             ))}
          </div>
-         <div className="col-xs-6 contact-info">
+         <div className="col-xs-7 contact-info">
             {contactinfo.map(({label,info})=>(
                <p>{info}</p>
             ))}
