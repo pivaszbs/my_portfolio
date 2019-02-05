@@ -1,0 +1,24 @@
+.p-bar {
+    width: 90%;
+    border: 1px solid;
+    height: 1rem;
+    margin-right: 5rem;
+    justify-content: space-between;
+    padding: 0;
+    overflow: hidden;
+}
+
+.p-line {
+    background-color: #000;
+    height: 100px;
+    align-self: start;
+}
+
+.sw-item {
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+.sw-group {
+    flex-wrap: wrap;
+}
