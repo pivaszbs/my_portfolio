@@ -6,7 +6,7 @@ const Education = ({ eduInfo }) => {
         const { id, header = 'lorem', university = 'lorem', info } = item;
 
         return (
-            <span key={id} className='edu-group-item'>
+            <span key={id}>
                 <h3 style={{ color: 'steelblue' }}>
                     <i style={{ color: 'black' }} className='fa fa-circle' />  {header.toUpperCase()}
                 </h3>
@@ -16,7 +16,7 @@ const Education = ({ eduInfo }) => {
         );
     });
     return (
-        <div>
+        <div className='edu-group-item'>
             {elements}
         </div>
     );
