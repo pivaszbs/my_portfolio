@@ -27,7 +27,7 @@ const App = () => {
                 <Contact />
                 <Skills />
             </div>
-            <div className="flex-side">
+            <div className="col-lg-6 col-xs-12">
                 <Education />
                 <Experience />
                 <Software />
