@@ -4,13 +4,13 @@ import './module-header.css';
 
 const ModuleHeader = ({ icon, text }) => {
 
-    const icn = 'fa' + icon;
+    const icn = 'fa ' + icon;
 
     return (
-        <div className="module-header">
-            <i className={icon} />
-            <h1>{text.toUpperCase()}</h1>
-        </div>
+        <span className="module-header">
+            
+            <h2><i className={icn} />{text.toUpperCase()}<hr className=''/></h2>
+        </span>
     );
 };
 

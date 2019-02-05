@@ -1,0 +1,17 @@
+.module-header {
+    max-width: 400px; 
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.module-header hr {
+    display: inline-block;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 2px solid blue; 
+}
+
+.module-header i {
+    margin-right: 2px;
+}
