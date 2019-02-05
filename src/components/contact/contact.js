@@ -2,11 +2,20 @@ import React from 'react';
 import './contact.css';
 
 
-const Contact = () => {
+const Contact = (props) => {
+   const contactinfo = props.contactinfo;
    return (
-      <div>
-
-
+      <div className="row">
+         <div className="col-xs-5 contact-label">
+            {contactinfo.map(({label,info})=>(
+               <p>{label}</p>
+            ))}
+         </div>
+         <div className="col-xs-6 contact-info">
+            {contactinfo.map(({label,info})=>(
+               <p>{info}</p>
+            ))}
+         </div>
        </div>
   );
 };

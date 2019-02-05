@@ -30,20 +30,32 @@ const App = () => {
         icon: "fa-phone",
         text: "Contact"
     }
+
+    const profile_description = "huy huy huy";
+
+    const contactinfo = [
+        { label: "Adress", info: "Innopolis, REP. Tatarstan, 1 campus" },
+        { label: "Email", info: "toxa121211@gmail.com" },
+        { label: "Phone", info: "+79648350370" },
+        { label: "Website", info: "http://localhost:3000" },
+    ]
+
     return (
         <div className="container">
-            <div className="col-lg-6 col-xs-12 overflow-hidden">
-                <MainInfo {...maininfo} />
-                <ModuleHeader {...profileheader} />
-                <Profile />
-                <ModuleHeader {...contactheader}/>
-                <Contact />
-                <Skills />
-            </div>
-            <div className="col-lg-6 col-xs-12">
-                <Education />
-                <Experience />
-                <Software />
+            <div className="row">
+                <div className="col-lg-5 col-xs-12 overflow-hidden">
+                    <MainInfo {...maininfo} />
+                    <ModuleHeader {...profileheader} />
+                    <Profile profile_description={profile_description} />
+                    <ModuleHeader {...contactheader} />
+                    <Contact contactinfo={contactinfo} />
+                    <Skills />
+                </div>
+                <div className="col-lg-7 col-xs-12">
+                    <Education />
+                    <Experience />
+                    <Software />
+                </div>
             </div>
         </div>
     );
