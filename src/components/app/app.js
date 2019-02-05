@@ -24,7 +24,6 @@ const App = () => {
         <div className="container">
             <div className="col-lg-6 col-xs-12">
                 <MainInfo {...maininfo} />
-                <ModuleHeader icon='fa-user-circle' />
                 <Profile />
                 <Contact />
                 <Skills />
