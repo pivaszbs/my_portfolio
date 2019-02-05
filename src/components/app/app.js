@@ -63,6 +63,11 @@ const App = () => {
         {id: 'kek', university: "Toha", header: "Lol", info: "Ya zbs pivas ebnul"},
     ]
 
+    const sofInfo = [
+        {tech: "huy", perc: 20},
+        {tech: "huy", perc: 40},
+    ]
+
     return (
         <div className="container">
             <div className="row">
@@ -80,7 +85,7 @@ const App = () => {
                     <ModuleHeader {...expheader} />
                     <Experience expInfo={expInfo}/>
                     <ModuleHeader {...softheader} />
-                    <Software />
+                    <Software sofInfo={sofInfo}/>
                 </div>
             </div>
         </div>
