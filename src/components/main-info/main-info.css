@@ -7,8 +7,9 @@
 }
 .main-img{
     margin-top: 5%;
-    margin-left: 27%;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
 .circle{
     border: 2px solid #3d6cb0;
@@ -29,4 +30,8 @@
 
 .main-text {
     margin-top: 1rem;
+    font-family: 'Comfortaa', cursive;
+}
+.main-text h1, h3 {
+    font-weight: 700;
 }

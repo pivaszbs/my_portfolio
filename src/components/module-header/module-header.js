@@ -2,7 +2,7 @@ import React from 'react';
 
 import './module-header.css';
 
-const ModuleHeader = ({ icon, text }) => {
+const ModuleHeader = ({ icon, text='placeholder' }) => {
 
     const icn = 'fa ' + icon;
 

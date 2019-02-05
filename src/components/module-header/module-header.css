@@ -1,7 +1,7 @@
 .module-header {
-    max-width: 400px; 
     overflow: hidden;
     white-space: nowrap;
+    color: steelblue;
 }
 
 .module-header hr {
@@ -9,9 +9,12 @@
     margin-left: 3px;
     margin-bottom: 10px;
     width: 100%;
-    border: 2px solid blue; 
+    border: 2px solid; 
 }
 
 .module-header i {
     margin-right: 2px;
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 50%;
 }
