@@ -17,20 +17,17 @@
 }
 .module-header h2 {
     font-size: 3rem;
-}
-.module-header_circle {
-    vertical-align: middle;
     text-align: center;
-    height: 68px;
-    width: 68px;
-    border: 2px solid;
-    border-radius: 50%;
-    display: inline-block;
 }
 .module-header i {
+    font-size: 4.7rem;
+    border-radius: 50%;
+    border: solid steelblue;
+    color: steelblue;
+    line-height: 1.5em;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
     display: inline-block;
-    width: 4rem;
-    height: 4rem;
-    padding: 3px;
-    vertical-align: middle;
+    margin-right: 1rem;
 }
