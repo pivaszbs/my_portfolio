@@ -7,7 +7,7 @@
 }
 .main-img{
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 27%;
     border-radius: 50%;
 }
 .circle{
@@ -25,4 +25,8 @@
     margin-top: 5px;
     height: 95%;
     width: 95%;
+}
+
+.main-text {
+    margin-top: 1rem;
 }
