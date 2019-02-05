@@ -1,0 +1,13 @@
+.contact-label {
+    margin-left: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: steelblue;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+
+}
+
+.contact-info {
+    font-size: 1.2rem;
+}

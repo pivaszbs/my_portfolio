@@ -4,6 +4,7 @@
     align-content: center;
     justify-content: center;
     flex-direction: column;
+    font-family: inherit;
 }
 .main-img{
     margin-top: 5%;
@@ -30,7 +31,6 @@
 
 .main-text {
     margin-top: 1rem;
-    font-family: 'Comfortaa', cursive;
 }
 .main-text h1, h3 {
     font-weight: 700;

@@ -2,6 +2,7 @@
     overflow: hidden;
     white-space: nowrap;
     color: steelblue;
+    font-weight: 700;
 }
 
 .module-header hr {
@@ -10,8 +11,13 @@
     margin-bottom: 10px;
     width: 100%;
     border: 2px solid; 
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 5rem;
 }
-
+.module-header h2 {
+    font-size: 3rem;
+}
 .module-header i {
     width: 42px;
     height: 42px;

@@ -8,8 +8,8 @@ const ModuleHeader = ({ icon, text='placeholder' }) => {
 
     return (
         <span className="module-header">
-            
             <h2><i className={icn} />{text.toUpperCase()}<hr className=''/></h2>
+            <br />
         </span>
     );
 };
