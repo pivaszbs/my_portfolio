@@ -5,8 +5,8 @@
 }
 .skill-ratings {
     font-size: 1.5rem;
-    margin-left: 2.5rem;
     color: steelblue;
+    text-align: center;
 }
 .skill-ratings_circle {
     margin-right: .5em;

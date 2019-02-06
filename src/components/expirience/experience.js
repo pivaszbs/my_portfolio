@@ -10,7 +10,6 @@ const Experience = ({expInfo}) => {
           <span key={id}>
               <h3 style={{ color: 'steelblue' }}>
                   <i style={{ color: 'black' }} className='fa fa-circle' />  {company.toUpperCase()}
-                  //2007-2019
               </h3>
               <h4>{job.toUpperCase()}</h4>
               <p>{info}</p>

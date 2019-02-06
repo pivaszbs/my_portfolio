@@ -17,12 +17,11 @@ const Skills = ({skills}) => {
    console.log(ratings);
    return (
       <div> 
-         {skills.map(({label,amount})=>(
+         {skills.map(({label},i)=>(
             <div>
             <div className="skill-label">{label}</div>
             <div className="skill-ratings">
-               {ratings[0].map((r)=>{
-                  console.log(r)
+               {ratings[i].map((r)=>{
                   return (<i className={r}></i>)
                })}
             </div>

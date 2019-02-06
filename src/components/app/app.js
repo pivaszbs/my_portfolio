@@ -31,7 +31,7 @@ const App = () => {
         text: "Contact"
     }
 
-    const profile_description = "huy huy huy";
+    const proInfo = "No helmets, no brains. //Funny guy with ideas in mind";
 
     const contactinfo = [
         { label: "Adress ", info: "Innopolis, REP. Tatarstan, 1 campus" },
@@ -56,20 +56,18 @@ const App = () => {
     }
 
     const expInfo = [
-        {id: 'kek', job: "Toha", company: "Lol", info: "Ya zbs pivas ebnul"},
+        {id: 'No work', job: "No real work", company: "Real life//1999-2019", info: "Team work in students group"},
     ]
 
     const eduInfo = [
-        {id: 'kek', university: "Toha", header: "Lol", info: "Ya zbs pivas ebnul"},
+        {id: 'Innopolis', university: "Innopolis University", header: "Computer Science", info: "2nd year Bachelor"},
     ]
 
     const sofInfo = [
-        {tech: "huy", perc: 20},
-        {tech: "huy", perc: 40},
-        {tech: "huy", perc: 20},
-        {tech: "huy", perc: 40},
-        {tech: "huy", perc: 20},
-        {tech: "huy", perc: 40},
+        {tech: "HTML&CSS3", perc: 75},
+        {tech: "JS", perc: 100},
+        {tech: "ReactJS", perc: 60},
+        {tech: "SQLite", perc: 50},
     ]
 
     const skillsheader = {
@@ -78,7 +76,10 @@ const App = () => {
     }
 
     const sklInfo = [
-        {label: "Creative", amount: 4}
+        {label: "Creative", amount: 10},
+        {label: "Teamwork", amount: 10},
+        {label: "Communication", amount: 7},
+        {label: "Innovate", amount: 6}
     ]
     return (
         <div className="container">
@@ -86,19 +87,20 @@ const App = () => {
                 <div className="col-lg-5 col-xs-12 overflow-hidden">
                     <MainInfo {...maininfo} />
                     <ModuleHeader {...profileheader} />
-                    <Profile profile_description={profile_description} />
+                    <Profile proInfo={proInfo} />
                     <ModuleHeader {...contactheader} />
                     <Contact contactinfo={contactinfo} />
-                    <ModuleHeader {...skillsheader} />
-                    <Skills skills={sklInfo}/>
+                    <ModuleHeader {...softheader} />
+                    <Software sofInfo={sofInfo}/>
                 </div>
-                <div className="col-lg-7 col-xs-12 overflow-hidden">
+                <div className="col-lg-1"></div>
+                <div className="col-lg-6 col-xs-12 overflow-hidden">
                     <ModuleHeader {...eduheader} />
                     <Education eduInfo={eduInfo}/>
                     <ModuleHeader {...expheader} />
                     <Experience expInfo={expInfo}/>
-                    <ModuleHeader {...softheader} />
-                    <Software sofInfo={sofInfo}/>
+                    <ModuleHeader {...skillsheader} />
+                    <Skills skills={sklInfo}/>
                 </div>
             </div>
         </div>
