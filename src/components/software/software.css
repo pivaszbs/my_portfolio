@@ -24,3 +24,9 @@
 .sw-group {
     flex-wrap: wrap;
 }
+
+@media (max-width: 1000px){
+    .sw-item {
+    font-size: 1rem;
+    }
+}

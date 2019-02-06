@@ -11,3 +11,12 @@
 .skill-ratings_circle {
     margin-right: .5em;
 }
+
+@media (max-width: 1000px){
+    .skill-ratings {
+    font-size: 1rem;
+    }
+    .skill-label {
+        font-size: 2rem;
+    }
+}

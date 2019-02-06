@@ -9,3 +9,9 @@
 .edu-group-item{
     margin-left: 0.55rem;
 }
+
+@media (max-width: 1000px){
+    .edu-group-item {
+    font-size: 1rem;
+    }
+}

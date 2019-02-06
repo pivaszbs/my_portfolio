@@ -56,7 +56,7 @@ const App = () => {
     }
 
     const expInfo = [
-        {id: 'No work', job: "No real work", company: "Real life//1999-2019", info: "Team work in students group"},
+        {id: 'No work', job: "No real work", company: "Real life //1999-2019", info: "Team work in students group"},
     ]
 
     const eduInfo = [
@@ -79,7 +79,6 @@ const App = () => {
         {label: "Creative", amount: 10},
         {label: "Teamwork", amount: 10},
         {label: "Communication", amount: 7},
-        {label: "Innovate", amount: 6}
     ]
     return (
         <div className="container">
