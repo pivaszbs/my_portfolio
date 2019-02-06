@@ -1,15 +1,15 @@
 .p-bar {
     width: 90%;
-    border: 1px solid;
     height: 1rem;
     margin-right: 5rem;
     justify-content: space-between;
+    background-color: #e6e6e6;
     padding: 0;
     overflow: hidden;
 }
 
 .p-line {
-    background-color: #000;
+    background-color: #3d6cb0;
     height: 100px;
     align-self: start;
 }
