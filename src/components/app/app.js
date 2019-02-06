@@ -51,7 +51,7 @@ const App = () => {
     }
 
     const softheader = {
-        icon: "fa-desktop",
+        icon: "fas fa-desktop",
         text: "Software"
     }
 
@@ -66,8 +66,20 @@ const App = () => {
     const sofInfo = [
         {tech: "huy", perc: 20},
         {tech: "huy", perc: 40},
+        {tech: "huy", perc: 20},
+        {tech: "huy", perc: 40},
+        {tech: "huy", perc: 20},
+        {tech: "huy", perc: 40},
     ]
 
+    const skillsheader = {
+        icon: "fas fa-lightbulb",
+        text: "Skills"
+    }
+
+    const sklInfo = [
+        {label: "Creative", amount: 4}
+    ]
     return (
         <div className="container">
             <div className="row">
@@ -77,7 +89,8 @@ const App = () => {
                     <Profile profile_description={profile_description} />
                     <ModuleHeader {...contactheader} />
                     <Contact contactinfo={contactinfo} />
-                    <Skills />
+                    <ModuleHeader {...skillsheader} />
+                    <Skills skills={sklInfo}/>
                 </div>
                 <div className="col-lg-7 col-xs-12 overflow-hidden">
                     <ModuleHeader {...eduheader} />

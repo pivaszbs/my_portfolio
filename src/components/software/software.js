@@ -9,7 +9,7 @@ const Software = ({sofInfo}) => {
       const {tech, perc} = item;
 
       return (
-         <div className="sw-item">
+         <div key={tech} className="sw-item">
             <p>{tech}</p>
             <div className="p-bar">
                <div className="p-line" style={{width: perc}}></div>
