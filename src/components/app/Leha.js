@@ -13,7 +13,7 @@ import ModuleHeader from '../module-header/module-header';
 
 
 
-const App = () => {
+const Leha = () => {
 
     const maininfo = {
         name: "Anton",
@@ -106,4 +106,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Leha;
