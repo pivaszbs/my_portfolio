@@ -1,14 +1,13 @@
 import React from 'react';
 import './main-info.css';
-import MyFoto from './ez.jpg';
 
-const MainInfo = ({ name, surname, workplace }) => {
+const MainInfo = ({ name, surname, workplace, photo }) => {
     return (
         <div className="main-info">
                 <div className="main-img">
                     <div className="circle">
                     <figure className="main-img_photo">
-                        <img alt="my huy" className="main-img_photo" src={MyFoto} />
+                        <img alt="my huy" className="main-img_photo" src={photo} />
                     </figure>
                     </div>
                 </div>

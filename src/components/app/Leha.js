@@ -11,14 +11,17 @@ import Software from '../software/software';
 import Education from '../education/education';
 import ModuleHeader from '../module-header/module-header';
 
+import MyFotoLeha from '../main-info/photo.jpg';
+
 
 
 const Leha = () => {
 
     const maininfo = {
-        name: "Anton",
-        surname: "Krylov",
-        workplace: "Front-end"
+        name: "Alexey",
+        surname: "Logachev",
+        workplace: "Front-end",
+        photo: MyFotoLeha
     };
 
     const profileheader = {
@@ -31,12 +34,12 @@ const Leha = () => {
         text: "Contact"
     }
 
-    const proInfo = "No helmets, no brains. //Funny guy with ideas in mind";
+    const proInfo = "Learning how to learn and be happy with himself";
 
     const contactinfo = [
         { label: "Adress ", info: "Innopolis, REP. Tatarstan, 1 campus" },
-        { label: "Email  ", info: "toxa121211@gmail.com" },
-        { label: "Phone  ", info: "+79648350370" },
+        { label: "Email  ", info: "kingofrootelement@gmail.com" },
+        { label: "Phone  ", info: "+79821759743" },
         { label: "Website", info: "http://localhost:3000" },
     ]
 
@@ -64,10 +67,11 @@ const Leha = () => {
     ]
 
     const sofInfo = [
-        {tech: "HTML&CSS3", perc: 75},
+        {tech: "HTML&CSS3", perc: 80},
         {tech: "JS", perc: 100},
-        {tech: "ReactJS", perc: 60},
-        {tech: "SQLite", perc: 50},
+        {tech: "ReactJS", perc: 50},
+        {tech: "PostgreSQL", perc: 55},
+        {tech: "Photoshop", perc: 90}
     ]
 
     const skillsheader = {
@@ -76,8 +80,8 @@ const Leha = () => {
     }
 
     const sklInfo = [
-        {label: "Creative", amount: 10},
-        {label: "Teamwork", amount: 10},
+        {label: "Creative", amount: 6},
+        {label: "Teamwork", amount: 7},
         {label: "Communication", amount: 7},
     ]
     return (

@@ -11,6 +11,8 @@ import Software from '../software/software';
 import Education from '../education/education';
 import ModuleHeader from '../module-header/module-header';
 
+import MyFotoToha from '../main-info/ez.jpg';
+
 
 
 const Antoha = () => {
@@ -18,7 +20,8 @@ const Antoha = () => {
     const maininfo = {
         name: "Anton",
         surname: "Krylov",
-        workplace: "Front-end"
+        workplace: "Front-end",
+        photo: MyFotoToha
     };
 
     const profileheader = {
