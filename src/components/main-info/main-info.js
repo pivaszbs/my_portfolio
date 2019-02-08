@@ -7,7 +7,7 @@ const MainInfo = ({ name, surname, workplace, photo }) => {
                 <div className="main-img">
                     <div className="circle">
                     <figure className="main-img_photo">
-                        <img alt="my huy" className="main-img_photo" src={photo} />
+                        <img alt="my photo"className="main-img_photo" src={photo} />
                     </figure>
                     </div>
                 </div>
