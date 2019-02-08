@@ -1,7 +1,7 @@
 button {
     width: 50%;
     height: 100vh;
-    font-size: 25vh;
+    font-size: 10vw;
 }
 button:hover {
     background-color: #000000;

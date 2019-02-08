@@ -8,7 +8,7 @@ const MainInfo = ({ name, surname, workplace }) => {
                 <div className="main-img">
                     <div className="circle">
                     <figure className="main-img_photo">
-                        <img alt="my huy" className="main-img_photo" src={MyFoto} />
+                        <img alt="my photo"className="main-img_photo" src={MyFoto} />
                     </figure>
                     </div>
                 </div>
